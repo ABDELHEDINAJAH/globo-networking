@@ -40,7 +40,7 @@ jobs:
 
     # Run a terraform validate
     # Run even if formatting fails
-    #
+    # add new comment
     - name: Terraform Validate
       id: validate
       if: (success() || failure())
